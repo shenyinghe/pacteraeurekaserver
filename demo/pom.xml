@@ -30,6 +30,8 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<!-- jdk10模块化后需要额外补充的包start -->
 		<dependency>
 		    <groupId>javax.xml.bind</groupId>
 		    <artifactId>jaxb-api</artifactId>
@@ -50,6 +52,8 @@
 		    <artifactId>activation</artifactId>
 		    <version>1.1.1</version>
 		</dependency>
+		<!-- jdk10模块化后需要额外补充的包end -->
+		
 	</dependencies>
 
 	<dependencyManagement>
